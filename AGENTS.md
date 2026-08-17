@@ -59,6 +59,17 @@ tokens, private keys, or other secret values directly in Nix expressions because
 evaluated values can be copied into the Nix store. Use an appropriate secret
 manager, such as macOS Keychain, sops-nix, or agenix, when secrets are needed.
 
+## Documentation
+
+- Home Manager options: https://nix-community.github.io/home-manager/options/home-manager/programs/index.html
+- nix-darwin options: https://nix-darwin.github.io/nix-darwin/manual/index.html
+- nixpkgs packages: https://search.nixos.org/packages
+
+Consult the relevant option documentation before assuming an option name or
+behavior. Online documentation may describe a newer revision than the one in
+`flake.lock`; when they differ, verify against the pinned input's module source
+or the evaluated configuration.
+
 ## Conventions
 
 - Sort lists alphabetically when their order has no semantic meaning,
