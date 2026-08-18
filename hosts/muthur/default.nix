@@ -1,6 +1,8 @@
 { pkgs, ... }:
 
 {
+  imports = [ ../../modules/darwin/defaults.nix ];
+
   fonts.packages = [
     pkgs.nerd-fonts.meslo-lg
     pkgs.nerd-fonts.symbols-only
