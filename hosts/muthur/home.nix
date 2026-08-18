@@ -1,6 +1,7 @@
 {
   imports = [
     ../../modules/home
+    ../../modules/home/programs/aerospace.nix
     ../../modules/home/programs/codex.nix
     ../../modules/home/programs/ghostty.nix
   ];
