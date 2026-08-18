@@ -1,4 +1,11 @@
+{ pkgs, ... }:
+
 {
+  fonts.packages = [
+    pkgs.nerd-fonts.meslo-lg
+    pkgs.nerd-fonts.symbols-only
+  ];
+
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;
