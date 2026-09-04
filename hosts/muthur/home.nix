@@ -5,6 +5,7 @@
     ../../modules/home/programs/codex.nix
     ../../modules/home/programs/ghostty.nix
     ../../modules/home/programs/neovim.nix
+    ../../modules/home/programs/tmux.nix
   ];
 
   home = {
