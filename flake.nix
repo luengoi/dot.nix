@@ -22,6 +22,7 @@
       codex = ./modules/home/programs/codex.nix;
       fzf = ./modules/home/programs/fzf.nix;
       ghostty = ./modules/home/programs/ghostty.nix;
+      mise = ./modules/home/programs/mise.nix;
       neovim = ./modules/home/programs/neovim.nix;
       starship = ./modules/home/programs/starship.nix;
       tmux = ./modules/home/programs/tmux.nix;
