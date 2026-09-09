@@ -20,9 +20,12 @@
       default = ./modules/home;
       aerospace = ./modules/home/programs/aerospace.nix;
       codex = ./modules/home/programs/codex.nix;
+      fzf = ./modules/home/programs/fzf.nix;
       ghostty = ./modules/home/programs/ghostty.nix;
       neovim = ./modules/home/programs/neovim.nix;
+      starship = ./modules/home/programs/starship.nix;
       tmux = ./modules/home/programs/tmux.nix;
+      zsh = ./modules/home/programs/zsh.nix;
     };
 
     darwinModules = {
