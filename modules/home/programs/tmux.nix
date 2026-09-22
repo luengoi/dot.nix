@@ -12,10 +12,16 @@
     keyMode = "vi";
     mouse = false;
     resizeAmount = 5;
+    terminal = "tmux-256color";
 
     prefix = lib.mkDefault "C-a";
 
     extraConfig = ''
+      # Advertise truecolor to programs inside tmux even when the outer
+      # terminal's terminfo entry is missing on this host, which is common over
+      # SSH.
+      set -as terminal-features ',*:RGB'
+
       set -g renumber-windows on
       set -g set-clipboard on
 
