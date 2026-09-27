@@ -8,6 +8,11 @@
     pkgs.nerd-fonts.symbols-only
   ];
 
+  homebrew = {
+    enable = true;
+    casks = [ "claude" ];
+  };
+
   home-manager = {
     useGlobalPkgs = true;
     useUserPackages = true;
@@ -18,6 +23,11 @@
     computerName = "MUTHUR";
     hostName = "muthur";
     localHostName = "muthur";
+  };
+
+  nix-homebrew = {
+    enable = true;
+    user = "iluengo";
   };
 
   nix.settings.experimental-features = [
