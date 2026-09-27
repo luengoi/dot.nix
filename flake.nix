@@ -19,6 +19,7 @@
     homeManagerModules = {
       default = ./modules/home;
       aerospace = ./modules/home/programs/aerospace.nix;
+      claude = ./modules/home/programs/claude.nix;
       codex = ./modules/home/programs/codex.nix;
       fzf = ./modules/home/programs/fzf.nix;
       ghostty = ./modules/home/programs/ghostty.nix;

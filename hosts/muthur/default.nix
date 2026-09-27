@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ lib, pkgs, ... }:
 
 {
   imports = [ ../../modules/darwin/defaults.nix ];
@@ -25,7 +25,10 @@
     "nix-command"
   ];
 
-  nixpkgs.hostPlatform = "aarch64-darwin";
+  nixpkgs = {
+    config.allowUnfreePredicate = pkg: lib.getName pkg == "claude-code";
+    hostPlatform = "aarch64-darwin";
+  };
 
   system = {
     primaryUser = "iluengo";

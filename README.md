@@ -6,7 +6,7 @@ Home Manager, and for non-NixOS Linux machines managed with Home Manager.
 
 The repository currently defines the `muthur` Apple Silicon macOS host for the
 `iluengo` user. It configures macOS defaults, Home Manager, and a small set of
-user programs, including AeroSpace, Codex, Ghostty, and Neovim.
+user programs, including AeroSpace, Claude Code, Codex, Ghostty, and Neovim.
 
 ## Layout
 
