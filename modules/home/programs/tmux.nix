@@ -46,6 +46,7 @@
       set -g status-right ""
       set -g status-right-length 50
       setw -g window-status-style 'bg=#191d24 fg=colour255'
+      setw -g window-status-current-style 'none'
       setw -g window-status-current-format '#I#[fg=colour250]:#[fg=colour255]#W#[fg=colour50]#{?window_zoomed_flag,  ,  } '
       setw -g window-status-format '#I#[fg=colour237]:#[fg=colour250]#W#[fg=colour244]#{?window_zoomed_flag,  ,  } '
     '';
