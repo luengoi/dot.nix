@@ -22,6 +22,12 @@
       # SSH.
       set -as terminal-features ',*:RGB'
 
+      # Pass modified keys, including Shift+Enter and Ctrl+Enter, through to
+      # applications that request extended keys.
+      set -s extended-keys on
+      set -g extended-keys-format csi-u
+      set -as terminal-features ',*:extkeys'
+
       set -g renumber-windows on
       set -g set-clipboard on
 

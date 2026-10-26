@@ -27,6 +27,7 @@
       ghostty = ./modules/home/programs/ghostty.nix;
       mise = ./modules/home/programs/mise.nix;
       neovim = ./modules/home/programs/neovim.nix;
+      pi = ./modules/home/programs/pi.nix;
       starship = ./modules/home/programs/starship.nix;
       tmux = ./modules/home/programs/tmux.nix;
       zsh = ./modules/home/programs/zsh.nix;

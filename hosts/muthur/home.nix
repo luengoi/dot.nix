@@ -7,6 +7,7 @@
     ../../modules/home/programs/fzf.nix
     ../../modules/home/programs/ghostty.nix
     ../../modules/home/programs/neovim.nix
+    ../../modules/home/programs/pi.nix
     ../../modules/home/programs/starship.nix
     ../../modules/home/programs/tmux.nix
     ../../modules/home/programs/zsh.nix
