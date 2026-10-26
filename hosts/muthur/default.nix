@@ -10,7 +10,10 @@
 
   homebrew = {
     enable = true;
-    casks = [ "claude" ];
+    casks = [
+      "claude"
+      "figma"
+    ];
   };
 
   home-manager = {
