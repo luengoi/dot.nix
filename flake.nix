@@ -30,6 +30,7 @@
       pi = ./modules/home/programs/pi.nix;
       starship = ./modules/home/programs/starship.nix;
       tmux = ./modules/home/programs/tmux.nix;
+      xcodes = ./modules/home/programs/xcodes.nix;
       zsh = ./modules/home/programs/zsh.nix;
     };
 
