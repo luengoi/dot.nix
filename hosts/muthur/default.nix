@@ -1,7 +1,10 @@
 { lib, pkgs, ... }:
 
 {
-  imports = [ ../../modules/darwin/defaults.nix ];
+  imports = [
+    ../../modules/darwin/defaults.nix
+    ../../modules/darwin/karabiner-elements.nix
+  ];
 
   fonts.packages = [
     pkgs.nerd-fonts.meslo-lg

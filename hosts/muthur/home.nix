@@ -6,6 +6,7 @@
     ../../modules/home/programs/codex.nix
     ../../modules/home/programs/fzf.nix
     ../../modules/home/programs/ghostty.nix
+    ../../modules/home/programs/karabiner-elements.nix
     ../../modules/home/programs/mise.nix
     ../../modules/home/programs/neovim.nix
     ../../modules/home/programs/pi.nix

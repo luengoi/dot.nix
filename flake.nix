@@ -25,6 +25,7 @@
       codex = ./modules/home/programs/codex.nix;
       fzf = ./modules/home/programs/fzf.nix;
       ghostty = ./modules/home/programs/ghostty.nix;
+      karabiner-elements = ./modules/home/programs/karabiner-elements.nix;
       mise = ./modules/home/programs/mise.nix;
       neovim = ./modules/home/programs/neovim.nix;
       pi = ./modules/home/programs/pi.nix;
@@ -36,6 +37,7 @@
 
     darwinModules = {
       defaults = ./modules/darwin/defaults.nix;
+      karabiner-elements = ./modules/darwin/karabiner-elements.nix;
     };
 
     darwinConfigurations.muthur = inputs.nix-darwin.lib.darwinSystem {

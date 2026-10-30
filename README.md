@@ -47,6 +47,20 @@ configuration with:
 home-manager switch --flake .#<flake-name>
 ```
 
+## Karabiner-Elements
+
+On `muthur`, Karabiner-Elements maps Caps Lock to Control when used with other
+keys and Escape when tapped alone. After applying the configuration, open
+Karabiner-Elements and follow its prompts to approve the required macOS
+permissions and driver extension. Leave macOS's built-in Caps Lock mapping
+unchanged.
+
+Home Manager manages the entire `~/.config/karabiner` directory. Back up and
+move any existing configuration before the first activation, and edit the
+Home Manager module rather than changing settings in Karabiner's GUI. If
+Karabiner was already running, restart it after the first activation so it
+watches the new configuration location.
+
 ## Extending the configuration
 
 Add cross-platform user capabilities as Home Manager modules under
