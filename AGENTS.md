@@ -70,6 +70,17 @@ behavior. Online documentation may describe a newer revision than the one in
 `flake.lock`; when they differ, verify against the pinned input's module source
 or the evaluated configuration.
 
+## Commit guidelines
+
+- Use Conventional Commits: `<type>(<scope>): <summary>`, for example
+  `feat(xcodes): add CLI module and enable on muthur`.
+- Choose a scope matching the program or capability being changed, and write a
+  concise, imperative summary.
+- Keep one concern per commit; changes to unrelated programs belong in separate
+  commits.
+- Review the staged diff and recent commit history before committing to ensure
+  the content and message follow these conventions.
+
 ## Conventions
 
 - Sort lists alphabetically when their order has no semantic meaning,
