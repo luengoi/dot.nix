@@ -36,6 +36,7 @@
     };
 
     darwinModules = {
+      chatgpt = ./modules/darwin/chatgpt.nix;
       defaults = ./modules/darwin/defaults.nix;
       karabiner-elements = ./modules/darwin/karabiner-elements.nix;
       proton-pass = ./modules/darwin/proton-pass.nix;

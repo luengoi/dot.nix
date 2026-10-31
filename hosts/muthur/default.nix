@@ -2,6 +2,7 @@
 
 {
   imports = [
+    ../../modules/darwin/chatgpt.nix
     ../../modules/darwin/defaults.nix
     ../../modules/darwin/karabiner-elements.nix
     ../../modules/darwin/proton-pass.nix
