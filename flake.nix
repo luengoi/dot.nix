@@ -38,6 +38,8 @@
     darwinModules = {
       defaults = ./modules/darwin/defaults.nix;
       karabiner-elements = ./modules/darwin/karabiner-elements.nix;
+      proton-pass = ./modules/darwin/proton-pass.nix;
+      proton-vpn = ./modules/darwin/proton-vpn.nix;
     };
 
     darwinConfigurations.muthur = inputs.nix-darwin.lib.darwinSystem {

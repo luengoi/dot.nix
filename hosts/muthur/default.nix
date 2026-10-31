@@ -4,6 +4,8 @@
   imports = [
     ../../modules/darwin/defaults.nix
     ../../modules/darwin/karabiner-elements.nix
+    ../../modules/darwin/proton-pass.nix
+    ../../modules/darwin/proton-vpn.nix
   ];
 
   fonts.packages = [
