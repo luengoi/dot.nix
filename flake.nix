@@ -31,6 +31,7 @@
       pi = ./modules/home/programs/pi.nix;
       starship = ./modules/home/programs/starship.nix;
       tmux = ./modules/home/programs/tmux.nix;
+      tmux-project = ./modules/home/programs/tmux-project.nix;
       xcodes = ./modules/home/programs/xcodes.nix;
       zsh = ./modules/home/programs/zsh.nix;
     };
